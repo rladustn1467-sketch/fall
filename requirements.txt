@@ -1,0 +1,11 @@
+# Web server (server/main.py) dependencies - separate environment from the detection program
+# Tested with Python 3.12 on Windows.
+#   cd server
+#   python -m venv venv
+#   venv\Scripts\python.exe -m pip install -r requirements.txt
+fastapi==0.143.0
+uvicorn==0.54.0
+pydantic==2.14.0
+starlette==1.7.0
+# 새 웹앱 현관 비밀번호 암호화 저장 (door_codes.py, AES-256-GCM)
+cryptography==50.0.2
